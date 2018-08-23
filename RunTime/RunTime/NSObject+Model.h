@@ -17,4 +17,5 @@
 @end
 @interface NSObject ()
 +(instancetype)modelWithDictionary:(NSDictionary *)dictionary;
+
 @end

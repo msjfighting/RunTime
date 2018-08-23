@@ -14,6 +14,8 @@
 #import "NSObject+DictionaryToModel.h"
 #import "NSObject+Model.h"
 #import "UIGestureRecognizer+Block.h"
+#import "NSDictionary+Tool.h"
+#import "Foor.h"
 @interface ViewController ()
 
 @end
@@ -81,8 +83,20 @@
     
     
     
+     /****************   7.runtime将model转化为字典 **********************/
     
+    Foor *foo = [[Foor alloc] init];
+    foo.userName = @"gaoyuqiang";
+    foo.userName = nil;
+    foo.pwd = 1234;
+    foo.isUrl = YES;
+    foo.emailList = @[@"sfa@234.com", @"2@34.com"];
+    foo.childrenList = @{@"name":@"gao", @"pwd":@"32424"};
+    foo.MooDic = @{@"1" : @{@"s1" : @"1", @"s2" : @"2", @"s3" : @[@"1", @"2"]}};
+
     
+ NSDictionary *dict  =  [NSDictionary dictionaryWithModel:foo];
+    NSLog(@"%@", dict);
     
     
     

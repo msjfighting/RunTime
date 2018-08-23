@@ -22,6 +22,8 @@
 		E07B6F0E211AF07F00467C25 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E07B6F0D211AF07F00467C25 /* Dog.m */; };
 		E07B6F11211BDC1200467C25 /* UIImage+RunTimeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E07B6F10211BDC1200467C25 /* UIImage+RunTimeImage.m */; };
 		E07B6F14211BED0C00467C25 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = E07B6F13211BED0C00467C25 /* NSObject+Property.m */; };
+		E085541D212EA0D900B3CEC0 /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E085541C212EA0D900B3CEC0 /* NSDictionary+Tool.m */; };
+		E0855420212EA57500B3CEC0 /* Foor.m in Sources */ = {isa = PBXBuildFile; fileRef = E085541F212EA57500B3CEC0 /* Foor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,10 @@
 		E07B6F10211BDC1200467C25 /* UIImage+RunTimeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RunTimeImage.m"; sourceTree = "<group>"; };
 		E07B6F12211BED0C00467C25 /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		E07B6F13211BED0C00467C25 /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		E085541B212EA0D900B3CEC0 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
+		E085541C212EA0D900B3CEC0 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
+		E085541E212EA57500B3CEC0 /* Foor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foor.h; sourceTree = "<group>"; };
+		E085541F212EA57500B3CEC0 /* Foor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,10 +142,14 @@
 				E0122FBA211C17F400D818C1 /* NSObject+DictionaryToModel.m */,
 				E0122FC0211C287B00D818C1 /* NSObject+Model.h */,
 				E0122FBF211C287B00D818C1 /* NSObject+Model.m */,
+				E085541B212EA0D900B3CEC0 /* NSDictionary+Tool.h */,
+				E085541C212EA0D900B3CEC0 /* NSDictionary+Tool.m */,
 				E0122FC2211C309E00D818C1 /* NSObject+Extension.h */,
 				E0122FC3211C309E00D818C1 /* NSObject+Extension.m */,
 				E0122FC5211C351600D818C1 /* UIGestureRecognizer+Block.h */,
 				E0122FC6211C351600D818C1 /* UIGestureRecognizer+Block.m */,
+				E085541E212EA57500B3CEC0 /* Foor.h */,
+				E085541F212EA57500B3CEC0 /* Foor.m */,
 				E07B6EE0211AF04000467C25 /* Main.storyboard */,
 				E07B6EE3211AF04200467C25 /* Assets.xcassets */,
 				E07B6EE5211AF04200467C25 /* LaunchScreen.storyboard */,
@@ -304,8 +314,10 @@
 				E07B6F0E211AF07F00467C25 /* Dog.m in Sources */,
 				E07B6EDC211AF04000467C25 /* AppDelegate.m in Sources */,
 				E07B6F14211BED0C00467C25 /* NSObject+Property.m in Sources */,
+				E0855420212EA57500B3CEC0 /* Foor.m in Sources */,
 				E07B6F11211BDC1200467C25 /* UIImage+RunTimeImage.m in Sources */,
 				E0122FC1211C287B00D818C1 /* NSObject+Model.m in Sources */,
+				E085541D212EA0D900B3CEC0 /* NSDictionary+Tool.m in Sources */,
 				E0122FC7211C351600D818C1 /* UIGestureRecognizer+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
