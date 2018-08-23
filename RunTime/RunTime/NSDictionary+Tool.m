@@ -12,10 +12,13 @@
 + (NSDictionary *)dicFromObject:(NSObject *)object{
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     unsigned int count;
+    // 获取注册类的属性列表 ,第一个参数是类 第二个参数就是接受类属性数目的变量
     objc_property_t *propertyList = class_copyPropertyList([object class], &count);
     
     for (int i = 0; i < count; i++) {
+        // 循环获取单个属性
         objc_property_t property = propertyList[i];
+        // 获取属性名
         const char *cName = property_getName(property);
         NSString *name = [NSString stringWithUTF8String:cName];
         NSObject *value = [object valueForKey:name];//valueForKey返回的数字和字符串都是对象
